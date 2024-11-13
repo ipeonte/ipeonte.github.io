@@ -1,0 +1,51 @@
+---
+---
+
+@import "jekyll-theme-midnight";
+
+div.wrapper {
+    max-width: 800px;
+}
+
+section {
+    margin-top: 0px;
+    max-width: 800px;
+
+    #title {
+        margin: 0;
+
+        
+        margin: 0;
+        padding: 0 0 5px 0;
+
+        & > div {
+            display: flex;
+        }
+
+        p {
+            text-align: left;
+            margin-bottom: 0;
+        }
+
+        h1 {
+            a {
+              color: #fff;
+            }
+        }
+    }
+
+    ul.social-icons {
+        display: inline-block;
+        flex-grow: 1;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+
+        & > li {
+        margin: 0 0 0 15px;
+        list-style: none;
+        display: inline-block;
+        font-size: 16px;
+        }
+    }
+}
