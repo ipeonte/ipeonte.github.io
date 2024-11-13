@@ -71,6 +71,6 @@ With all advantages of TDD there is a reasonable question why it’s very often 
 TDD is a great concept that allows transforming the routine and sometimes boring process of software development into art. And like any art it has a cost and requires understanding of the process. And like any art, when  done well, it rewards participants with amazing results.
 
 ## References
-1. <a name="ref_1"></a>Lee Copeland (December 2001). "Extreme Programming". Computerworld. Archived from the original on June 5, 2011. Retrieved November 9, 2024.
+1. <a name="ref_1"></a>Lee Copeland (December 2001). "Extreme Programming". Computerworld. Archived from [the original](http://www.computerworld.com/softwaretopics/software/appdev/story/0,10801,66192,00.html) on June 5, 2011. Retrieved November 11, 2024.
 2. <a name="ref_2"></a>Maven repository for H2 Database Engine https://mvnrepository.com/artifact/com.h2database/h2
 3. <a name="ref_3"></a>Maven repository for embedded Kafka https://mvnrepository.com/artifact/embedded-kafka/embedded-kafka
