@@ -32,7 +32,7 @@ The [PropertiesLauncher](https://docs.spring.io/spring-boot/specification/execut
 
 One of the parameters for PropertiesLauncher is “loader.path” that can have absolute or relative path but the problem here is that it’s required “file:” prefix.  Unfortunately it’s not clearly explained in documentation.
 
-Finally the solution to externalize database configuration will look as next
+The final solution of externalizing database configuration look as follows:
 
 ```shell
 java  -Dloader.path=file:/usr/share/java -jar  service.jar --spring.config.location=mysql.properties 
