@@ -33,7 +33,7 @@ In the future articles I’ll explain how to test external dependencies that are
 
 
 # Mock is the devil.
-The most common response I’ve heard from colleaguess when developing and implementing the TDD approach was *“Why do we need such complexity ? Why just use a mock and quickly finish the task ?”*. Yes, sure, a quick and dirty approach works when creating something simple, like a calculator app. For big projects it’s the dead end.
+The most common response I’ve heard from colleagues when developing and implementing the TDD approach was *“Why do we need such complexity ? Why just use a mock and quickly finish the task ?”*. Yes, sure, a quick and dirty approach works when creating something simple, like a calculator app. For big projects it’s the dead end.
 
 The advantage of using Mock is a single and it’s huge – it is fast. Every IT manager likes it a lot. However the list of shortcomings is off the charts. It’s only works on input data that defined by developer, the testing code is complex and not human readable, it needs to be re-written when service refactored, quality of test depends of qualification of developer and hard to validate … but all together they cannot beat the single Mock advantage until project comes to QA phase.
 
