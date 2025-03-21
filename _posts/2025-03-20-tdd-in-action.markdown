@@ -33,5 +33,5 @@ There is a simple explanation of the requirement above that relates to the defin
 As I explained above the TDD quality is measured based on test coverage and one of the best plugin for that is [JaCoCo Maven Plug-in](https://www.eclemma.org/jacoco/trunk/doc/maven.html). It's also very easy to integrate with CI/CD (Maven) pipeline and if test coverage < 100% the build pipeline should be stopped. The simple configuration for JaCoCo can be found [here](https://github.com/ipeonte/PetCorpKafkaDemo/blob/master/pom.xml#L69)
 
 # Conclusion
-Time spent on creating tests according to TDD concept is not much higher or even the same as it would be spent on creating standard "Mock" tests. But the advantage is uncomparable - the TDD allows creating bug free code which pays back very quickly.
+Time spent on creating tests according to TDD concept is not much higher or even the same as it would be spent on creating standard "Mock" tests. But the advantage is incomparable - the TDD allows creating bug free code which pays back very quickly.
 
